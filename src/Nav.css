@@ -1,0 +1,22 @@
+.menu{
+    padding: 1em;
+    display: inline-block;
+}
+
+.menu_link {
+    text-decoration: none;
+}
+.menu__link--active{
+    color: red
+}
+.menu__options{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.menu__option{
+    cursor: pointer;
+    padding: 0.5em;
+}
+

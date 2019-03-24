@@ -1,0 +1,78 @@
+.Movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Movies a {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media(min-width: 576px) {
+  .Movies {
+    justify-content: space-between;
+  }
+  .Movies a {
+    width: 48%;
+  }
+}
+
+@media(min-width: 768px) {
+  .Movies a {
+    width: 31.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .Movies a {
+    width: 23%;
+  }
+}
+
+.movieLink {
+  position: relative;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #263238;
+  color: #1DE9B6;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.movieLink:hover .movieInfo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.add_collection{
+  border-radius: 4px;
+  background-color :white;
+  border-bottom: 2em; 
+  color: red;
+  border: 1px solid #f44336;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer; 
+  }
+
+.add_collection:hover{
+  background-color: red; 
+  color: white;
+}
+
