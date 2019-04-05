@@ -1,4 +1,9 @@
 
+#Practica en React.js
+
+- Uso de API https://developers.themoviedb.org/3
+- Modulo de Busqueda
+- Vista detalle de Pelicula
 
 ![Screenshot](Captura.png)
 
